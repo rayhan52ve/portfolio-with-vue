@@ -1,4 +1,5 @@
 <template>
+    <div class="blog-post">
   <!-- Page Title Starts -->
   <section
     class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1"
@@ -84,6 +85,7 @@
       </div>
     </div>
   </section>
+  </div>
 </template>
 
 <script>

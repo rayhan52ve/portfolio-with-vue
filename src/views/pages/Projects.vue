@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div class="projects">
     <!-- Page Title Starts -->
     <section
       class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1"
@@ -13,10 +13,10 @@
       class="main-content text-center revealator-slideup revealator-once revealator-delay1"
     >
       <div id="grid-gallery" class="container grid-gallery">
-        <!-- Portfolio Grid Starts -->
+        <!-- Projects Grid Starts -->
         <section class="grid-wrap">
           <ul class="row grid">
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -26,8 +26,8 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -37,8 +37,8 @@
                 <div><span>Youtube Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -48,8 +48,8 @@
                 <div><span>Slider Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -59,8 +59,8 @@
                 <div><span>Local Video Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -70,8 +70,8 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -81,8 +81,8 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -92,8 +92,8 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -103,8 +103,8 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
-            <!-- Portfolio Item Starts -->
+            <!-- Projects Item Ends -->
+            <!-- Projects Item Starts -->
             <li>
               <figure>
                 <img
@@ -114,14 +114,14 @@
                 <div><span>Image Project</span></div>
               </figure>
             </li>
-            <!-- Portfolio Item Ends -->
+            <!-- Projects Item Ends -->
           </ul>
         </section>
-        <!-- Portfolio Grid Ends -->
-        <!-- Portfolio Details Starts -->
+        <!-- Projects Grid Ends -->
+        <!-- Projects Details Starts -->
         <section class="slideshow">
           <ul>
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -163,8 +163,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -209,8 +209,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -249,7 +249,7 @@
                 <!-- Main Project Content Starts -->
                 <div
                   id="slider"
-                  class="carousel slide portfolio-slider"
+                  class="carousel slide projects-slider"
                   data-ride="carousel"
                   data-interval="false"
                 >
@@ -287,8 +287,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -335,8 +335,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -378,8 +378,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -421,8 +421,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -464,8 +464,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -507,8 +507,8 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
-            <!-- Portfolio Item Detail Starts -->
+            <!-- Projects Item Detail Ends -->
+            <!-- Projects Item Detail Starts -->
             <li>
               <figure>
                 <!-- Project Details Starts -->
@@ -550,9 +550,9 @@
                 <!-- Main Project Content Ends -->
               </figure>
             </li>
-            <!-- Portfolio Item Detail Ends -->
+            <!-- Projects Item Detail Ends -->
           </ul>
-          <!-- Portfolio Navigation Starts -->
+          <!-- Projects Navigation Starts -->
           <nav>
             <span class="icon nav-prev"
               ><img
@@ -571,7 +571,7 @@
               />
             </span>
           </nav>
-          <!-- Portfolio Navigation Ends -->
+          <!-- Projects Navigation Ends -->
         </section>
       </div>
     </section>
@@ -580,10 +580,10 @@
 
 
 <script>
-import $ from "jquery";
+// import $ from "jquery";
 
 export default {
-  name: "Portfolio",
+  name: "Projects",
   props: {
     speed: { type: Number, default: 300 },
     easing: { type: String, default: "ease" },

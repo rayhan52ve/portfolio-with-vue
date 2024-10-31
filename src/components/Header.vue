@@ -16,10 +16,10 @@
           <h2>About</h2>
         </router-link>
       </li>
-      <li class="icon-box" :class="{ active: isActive('portfolio') }">
+      <li class="icon-box" :class="{ active: isActive('projects') }">
         <i class="fa fa-briefcase"></i>
-        <router-link :to="{ name: 'portfolio' }">
-          <h2>Portfolio</h2>
+        <router-link :to="{ name: 'projects' }">
+          <h2>Projects</h2>
         </router-link>
       </li>
       <li class="icon-box" :class="{ active: isActive('contact') }">
@@ -29,12 +29,12 @@
         </router-link>
       </li>
       <!-- Uncomment if you want to add Blog navigation -->
-      <!-- <li class="icon-box" :class="{ active : isActive('home')}">
+      <li class="icon-box" :class="{ active : isActive('blog')}">
         <i class="fa fa-comments"></i>
-        <router-link :to="/blog">
+        <router-link :to="{name:'blog'}">
           <h2>Blog</h2>
         </router-link>
-      </li> -->
+      </li>
     </ul>
     <!-- Fixed Navigation Ends -->
 
@@ -56,9 +56,9 @@
               <i class="fa fa-user"></i><span>About</span>
             </router-link>
           </li>
-          <li :class="{ active: isActive('portfolio') }">
-            <router-link @click="closeMenu" :to="{ name: 'portfolio' }">
-              <i class="fa fa-folder-open"></i><span>Portfolio</span>
+          <li :class="{ active: isActive('projects') }">
+            <router-link @click="closeMenu" :to="{ name: 'projects' }">
+              <i class="fa fa-folder-open"></i><span>Projects</span>
             </router-link>
           </li>
           <li :class="{ active: isActive('contact') }">
@@ -67,9 +67,9 @@
             </router-link>
           </li>
           <!-- Uncomment if you want to add Blog navigation -->
-          <!-- <li :class="{ active : isActive('blog') }">
+          <li :class="{ active : isActive('blog') }">
         <router-link @click="closeMenu" :to="{ name: 'blog' }"><i class="fa fa-comments"></i><span>Blog</span></router-link>
-      </li> -->
+      </li>
         </ul>
       </div>
     </nav>
